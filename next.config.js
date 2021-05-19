@@ -10,8 +10,10 @@ module.exports = {
         }
         return config
     },
-
     future: {
         webpack5: true,
+    },
+    typescript: {
+        ignoreBuildErrors: true
     }
 }
