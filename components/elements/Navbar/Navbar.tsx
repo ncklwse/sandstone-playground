@@ -1,6 +1,6 @@
 import { NavbarMenu } from './NavbarMenu';
 
-export function Navbar({onClick}: { onClick?: (() => void) }) {
+export function Navbar({onClick}: { onClick?: (() => Promise<any>) }) {
     return (
         <>
             <header>
