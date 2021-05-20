@@ -62,6 +62,7 @@ export function Window({ active, file, onClick }: { active: boolean, file: Custo
                     cursor: pointer;
                     display: flex;
                     flex-direction: row;
+                    font-family: var(--font-display);
                     align-items: center;
                     outline: none;
                     text-align: left;
